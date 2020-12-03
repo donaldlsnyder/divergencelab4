@@ -187,14 +187,7 @@
 										}
 									}
 								},
-								"logStorageSettings": {
-									"linkedServiceName": {
-										"referenceName": "Lab4InvoiceCSV",
-										"type": "LinkedServiceReference"
-									},
-									"path": "archive"
-								},
-								"enableLogging": true,
+								"enableLogging": false,
 								"storeSettings": {
 									"type": "AzureBlobStorageReadSettings",
 									"recursive": true
